@@ -1,0 +1,22 @@
+.clock{
+    height: 160px;
+    background: url("../images/timer2.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 20px 7px;
+    overflow: hidden;
+}
+.clock >ul{
+    padding: 33px 30px 0 50px;
+}
+.clock ul li{width: 70px;height: 160px;float: left;margin:0 -3px;}
+.clock ul li ul{position: relative;}
+.clock ul li ul li{width:32px;height: 12px;display: block;}
+.clock ul li ul li:nth-child(1){position:absolute;left: 15px;}
+.clock ul li ul li:nth-child(2){position:absolute;transform:rotateZ(90deg);left:-5px;top:18px;}
+.clock ul li ul li:nth-child(3){position:absolute;transform:rotateZ(90deg);left:35px;top:18px;}
+.clock ul li ul li:nth-child(4){position:absolute;top: 36px;left: 15px;}
+.clock ul li ul li:nth-child(5){position:absolute;transform:rotateZ(90deg);top:55px;left:-5px;}
+.clock ul li ul li:nth-child(6){position:absolute;transform:rotateZ(90deg);left:35px;top: 55px;}
+.clock ul li ul li:nth-child(7){position:absolute;top: 72px;left: 15px;}
+.clock ul .point{width: 30px;}
+.clock ul .point span{display:block;height: 10px;width: 10px;background: #3D75FF;margin:20px 1px;}
